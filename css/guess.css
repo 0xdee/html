@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  background-color:black;
+  /*background-color: #60b347;*/
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+body
+{
+font-family: 'Press Start 2P', sans-serif;
+color: #eee;
+background-color: #222;
+}
+
+0b34
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+header p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+header  {
+text-align: center;
+}
+header .number{
+margin-top: inherit;
+  height: 50%;
+  width: 10%;
+  font-size: 30;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 8vh;
+  border-color: red;
+}
+header .again {
+  background:green;
+  margin-right: 2000px;
+  height: 10vh;
+  width: 20vh;
+  border-radius: 10px;
+
+
+
+}
+
+main{
+  height: 85vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ section button{
+  height: 30px;
+  font-size: 3vh;
+  background-color: gold;
+}
+section input {
+ height: 100px;
+ font-size: 30;
+ width: 120px;
+ background-color: white;
+ border-radius: 20px;
+ border-color: blue;
+
+}
+section p {
+  font-size: 30px;
+}
+section  guess {
+  height: 120px
+}
